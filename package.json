@@ -8,7 +8,7 @@
     "react-dom": "^18.0.0",
     "react-scripts": "0.9.5"
   },
-  "homepage": "https://williamberg123.github.io/rick-and-morty",
+  "homepage": "https://williamberg123.github.io/jogo-da-velha",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
