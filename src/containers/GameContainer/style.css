@@ -1,0 +1,8 @@
+.GameContainer {
+    max-width: 390px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin: 30px auto;
+    padding: 0 10px;
+}

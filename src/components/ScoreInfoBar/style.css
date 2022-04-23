@@ -1,0 +1,7 @@
+.Bar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+}
