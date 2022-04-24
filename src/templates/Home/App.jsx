@@ -68,17 +68,7 @@ export default function App() {
 		}
 	};
 
-	const resizeSquare = () => {
-		const squaresArray = document.querySelectorAll('.Square');
-
-		squaresArray.forEach((square) => {
-			square.style.height = `${square.offsetWidth}px`;
-		});
-	};
-
 	useEffect(() => {
-		resizeSquare();
-
         const isBallWinner = checkSequence(clickedBalls);
         const isCrossWinner = checkSequence(clickedCrosses);
 
