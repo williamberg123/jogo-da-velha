@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 import GameContainer from '../../containers/GameContainer/GameContainer';
-import Square from '../../components/Square/Square';
 
-import crossImage from '../../../public/assets/img/cross.png';
-import circleImage from '../../../public/assets/img/circle.png';
+import crossImage from '../../images/cross.png';
+import circleImage from '../../images/circle.png';
 
 import checkSequence from '../../utils/checkSequence';
 import ScoreInfoBar from '../../components/ScoreInfoBar/ScoreInfoBar';
@@ -77,8 +76,6 @@ export default function App() {
 		}, 100);
     }, [clickedBalls, clickedCrosses]);
 
-    const htmlRendering = Array(9).fill().map((item, index) => <Square index={index} funcHandleClick={(e) => handleClick(e, index)} key={`square${index}`} />);
-
 	return (
 		<div className="App">
 			<ScoreInfoBar
@@ -92,7 +89,7 @@ export default function App() {
 					imageRoot: crossImage
 				}}
 			/>
-			<GameContainer htmlRendering={htmlRendering} />
+			<GameContainer handleClick={handleClick} />
 		</div>
 	);
 }

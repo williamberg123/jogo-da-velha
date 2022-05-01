@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GameContainer /> should match snapshot 1`] = `
+<div
+  class="GameContainer"
+>
+  <div
+    class="Square Square0"
+    data-testid="Square"
+  />
+  <div
+    class="Square Square1"
+    data-testid="Square"
+  />
+  <div
+    class="Square Square2"
+    data-testid="Square"
+  />
+  <div
+    class="Square Square3"
+    data-testid="Square"
+  />
+  <div
+    class="Square Square4"
+    data-testid="Square"
+  />
+  <div
+    class="Square Square5"
+    data-testid="Square"
+  />
+  <div
+    class="Square Square6"
+    data-testid="Square"
+  />
+  <div
+    class="Square Square7"
+    data-testid="Square"
+  />
+  <div
+    class="Square Square8"
+    data-testid="Square"
+  />
+</div>
+`;

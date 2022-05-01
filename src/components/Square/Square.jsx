@@ -6,7 +6,7 @@ import './style.css';
 
 export default function Square({ funcHandleClick, index }) {
     return (
-        <div onClick={funcHandleClick} className={`Square Square${index}`}>
+        <div data-testid="Square" onClick={funcHandleClick} className={`Square Square${index}`}>
         </div>
     );
 }

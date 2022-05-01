@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ScoreInfoItem /> should match snapshot 1`] = `
+<div
+  class="Bar-group cross"
+>
+  <p>
+    Sua vez
+  </p>
+  <img
+    alt="img"
+    src="img/img.jpg"
+  />
+  <div
+    class="Bar-score"
+  >
+    10
+  </div>
+</div>
+`;
