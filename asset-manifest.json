@@ -1,8 +1,15 @@
 {
-  "main.css": "static/css/main.0f7d3959.css",
-  "main.css.map": "static/css/main.0f7d3959.css.map",
-  "main.js": "static/js/main.9e76578b.js",
-  "main.js.map": "static/js/main.9e76578b.js.map",
-  "static/media/circle.png": "static/media/circle.6d127110.png",
-  "static/media/cross.png": "static/media/cross.70fb4aa7.png"
+  "files": {
+    "main.css": "/jogo-da-velha/static/css/main.a708f547.css",
+    "main.js": "/jogo-da-velha/static/js/main.a223c284.js",
+    "static/media/circle.png": "/jogo-da-velha/static/media/circle.8bd60f240f7e4386ef57.png",
+    "static/media/cross.png": "/jogo-da-velha/static/media/cross.f50309cd86babfef775c.png",
+    "index.html": "/jogo-da-velha/index.html",
+    "main.a708f547.css.map": "/jogo-da-velha/static/css/main.a708f547.css.map",
+    "main.a223c284.js.map": "/jogo-da-velha/static/js/main.a223c284.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a708f547.css",
+    "static/js/main.a223c284.js"
+  ]
 }
